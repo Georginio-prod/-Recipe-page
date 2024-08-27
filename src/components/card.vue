@@ -2,9 +2,9 @@
     <div class="flex justify-center items-center bg-rose py-32">
         <div class="w-[736px] h-auto bg-white rounded-3xl px-10 py-10">
             <div class="flex flex-col ">
-                <img src="/public/image-omelette.jpeg" alt="image" class="rounded-xl pb-10">
+                <img src="/public/image-omelette.jpeg" alt="image" class="rounded-xl pb-9">
                 <div class="text-text">
-                    <p class="text-4xl">Simple Omelette Recipe</p>
+                    <p class="text-[40px]">Simple Omelette Recipe</p>
                     <h3 class="pt-6 text-h3 text-base pb-8">
                         An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
                         to perfection, optionally filled with your choice of cheese, vegetables, or meats.
@@ -17,18 +17,18 @@
                     <ul class="">
                         <li class="pl-4 pb-1"><span class="font-bold">Total</span>: Approximately 10 minutes</li>
                         <li class="pl-4 pb-1"><span class="font-bold">Preparation</span>: 5 minutes</li>
-                        <li class="pl-4 pb-1"><span class="font-bold">Cooking</span>: 5 minutes</li>
+                        <li class="pl-4"><span class="font-bold">Cooking</span>: 5 minutes</li>
                     </ul>
                 </div>
 
                 <div class="pt-8">
-                    <p class="text-tit1 text-3xl pb-6">Ingredients</p>
+                    <p class="text-tit1 text-[28px] pb-6">Ingredients</p>
                     <ul class="text-h3">
                         <li class="pl-4 pb-2"> 2-3 large eggs</li>
                         <li class="pl-4 pb-2">Salt, to taste</li>
                         <li class="pl-4 pb-2">Pepper, to taste</li>
                         <li class="pl-4 pb-2">1 tablespoon of butter or oil</li>
-                        <li class="pl-4 pb-2"> Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+                        <li class="pl-4"> Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
                     </ul>
                     <div class="border-b pt-8"></div>
                 </div>
@@ -50,7 +50,7 @@
                         <li class="pl-4 pb-2"><span class="font-bold">Fold and serve</span>: As the omelette continues to cook, carefully lift one edge and fold it over
                             the
                             fillings. Let it cook for another minute, then slide it onto a plate.</li>
-                        <li class="pl-4 pb-2"><span class="font-bold">Enjoy</span>: Serve hot, with additional salt and pepper if needed.</li>
+                        <li class="pl-4"><span class="font-bold">Enjoy</span>: Serve hot, with additional salt and pepper if needed.</li>
                     </ol>
                     <div class="border-b pt-8"></div>
                 </div>
