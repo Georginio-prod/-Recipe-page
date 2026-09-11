@@ -1,47 +1,67 @@
-# Vue 3 + Vite
+# Recipe page (Frontend Mentor)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+![Vue](https://img.shields.io/badge/Vue-3-4FC08D?logo=vue.js&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?logo=tailwindcss&logoColor=white)
+![Frontend Mentor](https://img.shields.io/badge/Frontend_Mentor-Challenge-3F54A3)
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
-#  Recipe page
+🔗 **Démo en ligne** : <https://recipe-page-nine-weld.vercel.app>
+📦 **Code source** : <https://github.com/Georginio-prod/-Recipe-page>
+🎯 **Défi** : [Recipe page](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm) (niveau *Newbie*)
 
-## Layout
+---
 
-The designs were created to the following widths:
+## 📌 Présentation
 
-- Mobile: 375px
-- Desktop: 1440px
+Page de **recette de cuisine** (omelette simple) : image, temps de préparation,
+ingrédients, instructions numérotées et tableau nutritionnel. Le défi met l'accent sur
+la **typographie** (polices Young Serif / Outfit), les **listes stylisées** (puces et
+numéros colorés) et le passage d'une carte centrée sur desktop à une page pleine
+largeur sur mobile.
 
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+## ✨ Fonctionnalités
 
-## Colors
+- Carte de recette responsive (pleine largeur sur mobile, carte arrondie centrée sur desktop).
+- Encadré « Preparation time » avec fond coloré.
+- Listes d'ingrédients et d'instructions avec marqueurs personnalisés.
+- Tableau « Nutrition » avec séparateurs.
 
-### Primary
+## 🛠️ Stack
 
-- Nutmeg: hsl(14, 45%, 36%)
-- Dark Raspberry: hsl(332, 51%, 32%)
+Vue 3 · Vite 5 · Tailwind CSS 3.
 
-### Neutral
+## 📁 Structure
 
-- White: hsl(0, 0%, 100%)
-- Rose White: hsl(330, 100%, 98%)
-- Eggshell: hsl(30, 54%, 90%)
-- Light Grey: hsl(30, 18%, 87%)
-- Wenge Brown: hsl(30, 10%, 34%)
-- Dark Charcoal: hsl(24, 5%, 18%)
+```
+Recipe-page/
+├── src/
+│   ├── App.vue · main.js · style.css
+│   └── components/card.vue     # La carte de recette
+├── public/                     # Image de la recette, favicon
+└── tailwind.config.js · vite.config.js
+```
 
-## Typography
+## 🚀 Installation & lancement
 
-### Body Copy
+```bash
+git clone https://github.com/Georginio-prod/-Recipe-page.git recipe-page
+cd recipe-page
+npm install
+npm run dev
+```
 
-- Font size (paragraph): 16px
+## 🌐 Déploiement
 
-### Fonts
+Déployé sur **Vercel**. Aucune configuration nécessaire.
 
-- Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
-- Weights: 400
+---
 
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-- Weights: 400, 600, 700
+## 👤 Auteur
 
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
+**Komla Etonam Georges EKLOU** (Georginio) — Développeur Full Stack Web & Web3
+
+[![GitHub](https://img.shields.io/badge/GitHub-Georginio--prod-181717?logo=github)](https://github.com/Georginio-prod)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profil-0A66C2?logo=linkedin)](https://www.linkedin.com/in/komla-etonam-georges-eklou-68518b23b)
+[![Portfolio](https://img.shields.io/badge/Portfolio-georginio.w3frame.com-6C63FF)](https://georginio.w3frame.com/)
+
+> 📚 Tous mes projets sont listés et documentés sur mon [profil GitHub](https://github.com/Georginio-prod).
